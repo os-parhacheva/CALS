@@ -8,11 +8,14 @@ namespace Domain
 {
     public class Author
     {
-        Guid Id { get; set; }
-        string FIO { get; set; }
-        string Email { get; set; }
-        string Number { get; set; }
-        bool Confirmation { get; set; }
+       public Guid Id { get; set; }
+        public string FIO { get; set; }
+        public string Email { get; set; }
+        public string Number { get; set; }
+        public bool Confirmation { get; set; }
+
+        public Guid IdAchievement { get; set; }
+        public Achievement Achievement { get; set; } = new Achievement();
 
 
     }
