@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain;
+using CALS.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure
+namespace CALS.Infrastructure
 {
     public class Context: DbContext
     {
